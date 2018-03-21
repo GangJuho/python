@@ -1,0 +1,11 @@
+import time as t
+
+input('엔터를 누르고 20초를 마음속으로 셉니다')
+start=t.time()
+input('20초후에 엔터를 다시 누릅니다')
+end =t.time()
+
+es=end - start
+print('실제 시간;' ,es, '초')
+print('차이',abs(es-20),'초')
+
