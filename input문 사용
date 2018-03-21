@@ -1,0 +1,5 @@
+y=input('----->')
+a=int(y)
+print('0~반복')
+for x in range(a):
+    print(x)
